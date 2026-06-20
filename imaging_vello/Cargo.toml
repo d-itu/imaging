@@ -27,7 +27,9 @@ vello-0-9 = ["dep:vello_09", "imaging_wgpu/wgpu-29"]
 
 [dev-dependencies]
 pollster = "0.4.0"
-wgpu = { version = "29.0.3" }
+wgpu_27 = { package = "wgpu", version = "27" }
+wgpu_28 = { package = "wgpu", version = "28" }
+wgpu_29 = { package = "wgpu", version = "29" }
 
 [lints]
 workspace = true
